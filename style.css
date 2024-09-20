@@ -13,15 +13,16 @@ a {
 ul {
 	list-style: none;
 }
+
 body {
 	background-color: #efefef;
-	
+
 }
 
 /* Header */
 header {
-	background-color:aquamarine;
-	padding: 20px 400px;	
+	background-color: aquamarine;
+	padding: 20px 400px;
 }
 
 .navbar {
@@ -38,10 +39,30 @@ header {
 	gap: 20px;
 	border: 1px dashed black;
 	font-size: 18px;
-	
+
 }
 
 .navbar .login {
 	border: 1px dashed black;
 	font-size: 18px;
 }
+
+/* Layout */
+.card {
+	height: 250px;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.container {
+	max-height: 220px;
+	height: 180px;
+	width: 500px;
+	background-color: palevioletred;
+	marging 
+}
+
+
