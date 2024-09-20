@@ -62,6 +62,7 @@ header {
 	height: 180px;
 	width: 500px;
 	background-color: palevioletred;
+	align-items: flex-start;
 }
 
 
@@ -73,9 +74,11 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .card-2 .container{
+	
 	max-height: 220px;
 	height: 180px;
 	width: 600px;
@@ -102,6 +105,22 @@ header {
 	background-color: pink;
 }
 
+/*  Layout 3 */
+.card-3{
+	height: 250px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(184, 172, 172, 0.904);
+}
+
+.card-3 .container{
+	max-height: 220px;
+	height: 180px;
+	width: 600px;
+	border: 1px solid black;
+}
 
 
 
