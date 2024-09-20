@@ -22,11 +22,12 @@ body {
 /* Header */
 header {
 	background-color: aquamarine;
-	padding: 20px 400px;
+	padding: 20px 453px;
 }
 
 .navbar {
 	background-color: rgb(231, 193, 122);
+	
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -148,13 +149,14 @@ header {
 	justify-content: center;
 	align-items: center;
 	background-color: black;
+	border-bottom: 5px solid grey;
 }
 
 .card-6 .container {
 	max-height: 250px;
 	height: 230px;
 	width: 600px;
-	border: 1px solid black;
+	
 	
 }
 
@@ -190,5 +192,35 @@ header {
 	border: 1px dashed black;
 }
 
+/* Footer */
 
+.layout-footer{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: space-between;
+}
+
+.navbar-footer{
+	
+	width: 600px;
+	height: 50px;
+	background-color: aquamarine;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+.logo-footer{
+	background-color: pink;
+	border: 1px dashed black;
+	font-size: 20x;
+}
+
+.button {
+	background-color: pink;
+	border: 1px dashed black;
+	font-size: 20x;
+	}
 
