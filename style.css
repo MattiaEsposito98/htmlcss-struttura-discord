@@ -140,5 +140,55 @@ header {
 	align-items: flex-start;
 }
 
+/* 6° Layout */
+.card-6{
+	height: 250px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+.card-6 .container {
+	max-height: 250px;
+	height: 230px;
+	width: 600px;
+	border: 1px solid black;
+	
+}
+
+.col-double{
+	width: 40%;
+	height: 100%;
+	background-color:indianred;
+	border: 1px dashed black;
+}
+
+.col-single-1 {
+	width: 15%;
+	height: 100%;
+	background-color:cadetblue;
+	border: 1px dashed black;
+}
+.col-single-2 {
+	width: 15%;
+	height: 100%;
+	background-color:cadetblue;
+	border: 1px dashed black;
+}
+.col-single-3 {
+	width: 15%;
+	height: 100%;
+	background-color:cadetblue;
+	border: 1px dashed black;
+}
+.col-single-4 {
+	width: 15%;
+	height: 100%;
+	background-color:cadetblue;
+	border: 1px dashed black;
+}
+
 
 
