@@ -122,6 +122,23 @@ header {
 	border: 1px solid black;
 }
 
+/* 5° Layout */
+.card-5{
+	height: 550px;
+	background-color:rgba(184, 172, 172, 0.904);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-5 .container{
+	padding: 12px;
+	max-height: 500px;
+	height: 500px;
+	width: 600px;
+	background-color: green;
+	align-items: flex-start;
+}
 
 
 
