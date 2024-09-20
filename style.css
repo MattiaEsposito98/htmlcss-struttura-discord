@@ -62,7 +62,47 @@ header {
 	height: 180px;
 	width: 500px;
 	background-color: palevioletred;
-	marging 
 }
+
+
+
+/*  2 Layout */
+.card-2{
+	height: 250px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-2 .container{
+	max-height: 220px;
+	height: 180px;
+	width: 600px;
+	border: 1px solid black;
+}
+.row{
+	display: flex;
+  flex-wrap: wrap;
+	height: 100%;
+	
+	
+}
+
+.col-1{
+	width: 60%;
+	height: 100%;
+	border: 1px solid black;
+	background-color:aquamarine;
+}
+
+.col-2{
+	width:40%;
+	height: 100%;
+	background-color: pink;
+}
+
+
+
 
 
